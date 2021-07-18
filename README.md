@@ -1,1 +1,1 @@
-# rsschool-cv
+https://vadimkonyok.github.io/rsschool-cv/cv
