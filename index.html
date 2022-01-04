@@ -10,9 +10,21 @@
 </head>
 <body>
     <div class="conteiner">
-        <header>
+        <nav>
+            <ul class="nav-list">
+                <li class="nav-item"><a href="#about-me" class="nav-link">About me</a></li>
+                <li class="nav-item"><a href="#skills" class="nav-link">Skills</a></li>
+                <li class="nav-item"><a href="#experience" class="nav-link">Experience</a></li>
+                <li class="nav-item"><a href="#education" class="nav-link">Education</a></li>
+                <li class="nav-item"><a href="#code" class="nav-link">Code</a></li>
+                <li class="nav-item"><a href="#progects" class="nav-link">Progects</a></li>
+                <li class="nav-item"><a href="#english" class="nav-link">English level</a></li>
+            </ul>
+        </nav>
+        
+        <header class='header'>
                 <div class="photo">
-                    <img src="img/VadimKonyok.jpg" alt="Photo by Vadim Konyok">
+                    <img src="/img/photo.jpg" alt="Photo by Vadim Konyok">
                 </div>
                 
                     <div class="name">
@@ -26,26 +38,27 @@
                             <li>Tel. +375296161164</li>
                         </ul> 
                             <div class="icons">
-                                <a href="vadim.konyok@gmail.com" target="_blank" >
+                                <a href="vadim.konyok@gmail.com" target="_blank" class="link">
                                 <img src="img/mail.png" alt="Image-link to Mail"/>
                                 </a>
-                                <a href="https://github.com/vadimkonyok" target="_blank" >
+                                <a href="https://github.com/vadimkonyok" target="_blank" class="link">
                                 <img src="img/Github.png" alt="Image-link to Github account"/>
                                 </a>
-                                <a href="https://www.linkedin.com/in/vadim-konyok-a8523a1b2/" target="_blank" >
+                                <a href="https://www.linkedin.com/in/vadim-konyok-a8523a1b2/" target="_blank" class="link">
                                 <img src="img/linkedin.jpg" alt="Image-link to Linkedin account"/>
                                 </a>
                             </div>
                 </div>
-            </header>
+        </header>
+
         <article>
-            <h2>About me</h2>
+            <h2 id="about-me">About me</h2>
                 <p>
                     I'm a beginner front-end developer. My main goal is to become a full-fledged Software Developer.
                     I always strive to acquire new experience and knowledge, to develop my professional qualities.
                     I have experience in developing landin pages.
                 </p>
-                <h2>Skills</h2>
+            <h2 id="skills">Skills</h2>
                 <ul>
                     <li>HTML</li>
                     <li>CSS (SASS)</li>
@@ -57,17 +70,18 @@
 
         <main>
             <section>
-                <h2>Experience</h2>
-                <div class="date">2019 - 2020</div>    
-                <strong>Sales Specialist</strong> <br>   
-                LLC "Evrozachast" 
-                                <br><br>
-                <div class="date">2013 - 2019</div>  
-                <strong>Diesel Train Driver Assistant</strong><br>   
-                RUE "Gomel branch of the Belarusian" Locomotive depot Kalinkovichi
+                <h2 id="experience">Experience</h2>
+                    <div class="date">2019 - 2020</div>    
+                    <strong>Sales Specialist</strong> <br>   
+                    LLC "Evrozachast" 
+                                    <br><br>
+                    <div class="date">2013 - 2019</div>  
+                    <strong>Diesel Train Driver Assistant</strong><br>   
+                    RUE "Gomel branch of the Belarusian" Locomotive depot Kalinkovichi
             </section>
+
             <section>
-                <h2>Education</h2>
+                <h2 id="education">Education</h2>
                     <div class="date">2015 - 2021</div> 
                     <strong>Engineer-economist, Faculty of Mechanical Engineering</strong><br> 
                             Belarusian National Technical University
@@ -77,23 +91,30 @@
                                 Gomel State College of Railway Transport of the Belarusian Railway
             </section>
                         <section>
-                            <h2>Code</h2>
+                            <h2 id="code">Code</h2>
                             <pre>
-         var age=11
-         var accompanied=true
-         var ageRestriction=12
-         var goToCinema=age&&accompanied||age>ageRestriction
-             goToCinema
+                                const findSquares = num => { 
+                                    const partial = (num - 1) / 2;
+                                    
+                                    return `${(partial + 1) ** 2}-${partial ** 2}`;
+                                  };
                             </pre>
                         </section>
+
+                        <section>
+                            <h2 id="progects">Progects</h2>
+                            <p><a href="https://rolling-scopes-school.github.io/vadimkonyok-JSFEPRESCHOOL/Museum/">Museum</a></p>
+                            <p><a href="https://github.com/vadimkonyok/typical-arrays-problems">Typical arrays problems</a></p>
+                        </section>
             <section>
-                <h2>English level</h2> 
+                <h2 id="english">English level</h2> 
                  <p>At the moment my level is A1, but I am constantly
                  learning and improving my level with the help of the 
                  YouTube channel <a href="https://www.youtube.com/c/АНГЛИЙСКИЙЯЗЫКПОПЛЕЙЛИСТАМ/featured">Alexsander Bebris</a>.
                  </p>
             </section>
         </main>
+        
         <footer class="footer">
             <div class="block"> 
                 <a href="https://github.com/vadimkonyok" target="_blank">
