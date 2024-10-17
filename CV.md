@@ -24,4 +24,20 @@ Material UI
 * **Communication & Management Tools**: Slack, Discord, Skype, Telegram
 * **Other**: Figma
 
+----
+## Experience
+Rolling Scopes School UpSkill Lab, Front-end JS (December, 2021
+- September, 2022)
+Student
+As a student I implemented several projects to get some hands - on development experience:
+([My Repositories](https://github.com/vadimkonyok?tab=repositories))
 
+---
+## Education
+2010 - 2013
+*Engineer-economist, Faculty of Mechanical Engineering*
+**Belarusian National Technical University**
+
+----
+## English level
+B1 (Intermediate)
