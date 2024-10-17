@@ -1,9 +1,9 @@
 # Vadim Konyok
 
 ## Contacts
-**Addres**: Georgia, Batumi
-**Tel.:** +995595037282
-**Email:** vadim.konyok@gmail.com
+**Addres**: Georgia, Batumi  
+**Tel.:** +995595037282  
+**Email:** vadim.konyok@gmail.com  
 **Social:** [Linkedin](https://www.linkedin.com/in/vadim-konyok-a8523a1b2/), [GitHub](https://github.com/vadimkonyok)
 
 ----
@@ -26,16 +26,14 @@ Material UI
 
 ----
 ## Experience
-Rolling Scopes School UpSkill Lab, Front-end JS (December, 2021
-- September, 2022)
-Student
-As a student I implemented several projects to get some hands - on development experience:
-([My Repositories](https://github.com/vadimkonyok?tab=repositories))
+Rolling Scopes School UpSkill Lab, Front-end JS (December, 2021 - September, 2022)  
+*Student*  
+As a student I implemented several projects to get some hands - on development experience: ([My Repositories](https://github.com/vadimkonyok?tab=repositories))
 
 ---
 ## Education
-2010 - 2013
-*Engineer-economist, Faculty of Mechanical Engineering*
+2010 - 2013  
+*Engineer-economist, Faculty of Mechanical Engineering*  
 **Belarusian National Technical University**
 
 ----
